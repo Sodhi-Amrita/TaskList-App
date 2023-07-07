@@ -1,0 +1,206 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.footer-dark {
+  padding: 30px 0;
+  color: #080808;
+  background-color:#8ac8ef;
+  width: 100%;
+}
+
+
+.navContainer{
+  background-color:#8ac8ef;
+  padding: 10px;
+  margin:0;
+  width:100%;
+
+}
+
+
+.navList {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navList li {
+  margin-right: 10px;
+}
+
+.navList li a {
+  color: #080808;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.navList li a:hover {
+  background-color:#FF7F50;
+  color: #070707;
+}
+
+.task-form {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input[type='text'] {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+ .btn {
+  background-color:#FF7F50;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color:#2F3C7E;
+  color:white;
+}
+.form{
+  margin:20px;
+}
+
+.taskContainer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.btn-tasklist {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  float: right;
+}
+
+.title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.taskContainer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.taskContainer .t1 {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.taskContainer .t1 li {
+  margin-bottom: 5px;
+}
+
+.searchForm {
+  margin-bottom: 20px;
+ 
+  
+}
+
+.searchForm label {
+
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.searchForm input[type='text'] {
+  
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.form {
+  margin-bottom: 20px;
+}
+
+.form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form input[type='text'] {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.btn-tf {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.Header.black
+{
+  color: black;
+}
+
+.Header.orange
+{
+  color:#e74c3c;
+}
+
+
+
+
+
